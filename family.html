@@ -1,0 +1,277 @@
+<DOCTYPE! html> 
+<head> 
+<title>My Family</title> 
+</head> 
+<body bgcolor="#151515"> 
+
+<meta name="viewport" content="width=device-width, initial-scale=5">
+<style>
+body {
+  margin: 0;
+  font-family: verdana;
+}
+
+
+.topnav a {
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #5D6D7E;
+  color: white;
+}
+
+.topnav a.active {
+  background-color: #5D6D7E;
+  color: white;
+}
+</style>
+</head>
+<body>
+
+<br>
+<div align="center" class="topnav">
+  <a href="index.html">Home</a>
+  <a href="myself.html">Me!</a>
+  <a href="education.html">Education</a>
+  <a class="active" href="family.html">Family</a>
+  <a href="hobby.html">Hobbies</a>
+  <a href="favourite.html">Favourite</a>
+  <a href="friend.html">Friends</a>
+</div>
+
+
+<br><br>
+
+<center>
+<font face="fantasy" size="32" color="white">Family Introduction</font>
+</center>
+
+<br>
+<center>
+<font color="white">Introduce to you my lovely family (kindly scroll down the picture)</font>
+</center>
+
+<br><br>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial;
+  color: #D6DBDF;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  vertical-align: middle;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: #D6DBDF;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #2222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+</style>
+<body>
+
+<center>
+<div class="container">
+  <div class="mySlides">
+    <div class="numbertext">1 / 6</div>
+    <img src="image/parents.jpg" style="width:30%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 6</div>
+    <img src="image/along.jpg" style="width:30%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 6</div>
+    <img src="image/tam.jpg" style="width:30%">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">4 / 6</div>
+    <img src="image/dam.jpg" style="width:30%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">5 / 6</div>
+    <img src="image/siblings.jpg" style="width:30%">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">6 / 6</div>
+    <img src="image/family.jpg" style="width:30%">
+  </div>
+</center>
+    
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="image/parents.jpg" style="width:100%" onclick="currentSlide(1)" alt="This is my parents. My father name is Janali and my mom name is Rosdiana. They are the most chill parents that ever exist. I love them so much.">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="image/along.jpg" style="width:100%" onclick="currentSlide(2)" alt="This is my oldest sister. Her name is Razana but we called her as Along. She is really smart and inspired me a lot.">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="image/tam.jpg" style="width:100%" onclick="currentSlide(3)" alt="This is my first litlle brother. His name is Riezman but we called him as tam. He is really enthusiast in Silat and already won a lot of silat competition.">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="image/dam.jpg" style="width:100%" onclick="currentSlide(4)" alt="This is the youngest brother. His name is Riezwan and we all called him as idam. He is a hyperactive and curious little boy. He is the cutest in our family.">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="image/siblings.jpg" style="width:100%" onclick="currentSlide(5)" alt="My favorite siblings.">
+    </div>    
+    <div class="column">
+      <img class="demo cursor" src="image/family.jpg" style="width:100%" onclick="currentSlide(6)" alt="This is us as a whole family.">
+    </div>
+  </div>
+</div>
+
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("demo");
+  let captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+    
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
